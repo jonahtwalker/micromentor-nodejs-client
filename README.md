@@ -1,7 +1,7 @@
 # MicroMentor's NodeJS Client
 
 ## Introduction
-`micromentor-nodejs-client` is a NodeJS client for MicroMentor's API. 
+`micromentor-node-client` is a NodeJS client for MicroMentor's API. 
 
 
 ## References
@@ -21,11 +21,11 @@ run `nvm use` and it will set the version specified in `.nvmrc`.
 
 Now install the package with:
 
-    yarn add micromentor-nodejs-client
+    yarn add micromentor-node-client
 
 or:
 
-    npm install micromentor-nodejs-client
+    npm install micromentor-node-client
 
 Then install the dependencies:
 
@@ -34,7 +34,7 @@ Then install the dependencies:
 ## Usage
 First initialize the client like this:
 
-    import micromentorClient from 'micromentor-nodejs-client
+    import micromentorClient from 'micromentor-node-client
     
     const config = {
       apiRootUrl: 'https://micromentor.org/api/v1',
