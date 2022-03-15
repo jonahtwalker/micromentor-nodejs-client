@@ -17,6 +17,10 @@
     "test2": "mocha --require ts-node/register src/**/*.spec.ts",
     "test": "NODE_ENV=test mocha src/test/**/*.spec.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonahtwalker/micromentor-nodejs-client.git"
+  },
   "devDependencies": {
     "@faker-js/faker": "^6.0.0-alpha.5",
     "@types/mocha": "^9.1.0",
