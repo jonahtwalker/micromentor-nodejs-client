@@ -4,7 +4,7 @@
   "description": "MicroMentor NodeJS client",
   "homepage": "https://micromentor.org",
   "main": "dist/index.js",
-  "types": "src/lib/definitions.d.ts",
+  "types": "dist/index.js",
   "author": "Jonah T Walker <jonah@quarky.team>",
   "license": "MIT",
   "engines": {
